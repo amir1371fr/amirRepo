@@ -1,0 +1,432 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/Yekan.eot") format("eot"),
+        url("../fonts/Yekan.woff") format("woff"),
+        url("../fonts/Yekan.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "BYekan" ;
+}
+.divHeader{
+   border-bottom: 1px solid rgb(233, 230, 230);;
+}
+.divOrder{
+    border-top: 2px solid rgb(233, 230, 230);
+    border-bottom: 2px solid rgb(233, 230, 230);
+}
+.divShoping{
+    font-weight: bold;
+}
+.divPrice{
+    font-size: 13px;
+}
+@media only screen and (min-width: 1536px){
+    .img{
+        width: 14% !important;
+        height: 140px !important;
+    }
+}
+@media only screen and (max-width: 1279px){
+    .divShoping{
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 13%;
+        width: 50%;
+    }
+    .divPrice{
+        font-size: 12px;
+        margin-left: 13%;
+        width: 50%;
+    }
+    .Order{
+        font-size: 12px;
+        margin-left: 13%;
+    }
+    .divStore{
+        margin-right: 13%;
+    }
+    .divStore>i , .divStore>p{
+        font-size:12px !important;
+    }
+    .onOffer i ,.onOffer p{
+        font-size:12px !important;
+    }
+    .prices span , .prices p{
+        font-size:12px !important;
+    }
+    #prices span , #prices p{
+        font-size:12px !important;
+    }
+    .onOffer{
+        margin-right: 14%;
+        width: 40% !important;
+    }
+    .prices{
+        margin-left: 13%;
+        width: 30% !important;
+    }
+    .img{
+        width: 12% !important;
+        height: 100px !important;
+    }
+    .scroll{
+        overflow-x: scroll;
+        position: relative;
+       width: 71% !important;
+}
+.divSpeciFications li, .divSpeciFications span{
+    font-size: 12px;
+}
+.divMoreInfo li, .divMoreInfo span{
+    font-size: 12px;
+}
+.surveyPhone{
+    width: 50% !important;
+}
+.chrat{
+
+}
+.surveyPhone>p:nth-child(2){
+    font-size: 12px !important;
+}
+.paragraphSurvey ,.futurePlus li{
+    font-size: 12px !important;
+}
+.divMap img{
+    width: 75% !important;
+    height: 120px !important;
+}
+.footer ul li{
+    font-size: 12px !important;
+}
+.centerCall p{
+    font-size: 12px !important;
+}
+.iconImg img{
+    width: 15px !important;
+    height: 15px !important;
+}
+.iconMark img{
+    width: 40px !important;
+    height: 30px !important;
+}
+.divRootCenterCall{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.iconMark{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0% !important;
+    position: relative;
+    margin-left: -2% !important;
+
+}
+.copyRight p{
+    font-size: 12px !important;
+}
+
+}
+@media only screen and (max-width: 972px){
+  
+    .divShoping{
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 0%;
+        width: 48%;
+    
+    }
+    .divPrice{
+        font-size: 12px;
+        margin-left: 0%;
+        width: 52%;
+    }
+    .Order{
+        font-size: 12px;
+        margin-left: 0%;
+    }
+    .onOffer{
+        margin-right: 0%;
+        width: 53% !important;
+        
+    }
+    .prices{
+        margin-left: 0%;
+       width: 42% !important;
+    }
+    .divStore{
+        margin-right: 0%;
+    }
+    .img{
+        width: 18% !important;
+        height: 100px !important;
+    }
+    .scroll{
+        overflow-x: scroll;
+        position: relative;
+       width: 96% !important;
+}
+.divSpeciFications{
+    display: flex;
+    justify-content: flex-end;
+}
+.divSpeciFications div{
+/* background-color: black; */
+width: 250px;
+}
+.divMoreInfo{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 2%;
+}
+.divMoreInfo div{
+/* background-color: black; */
+width: 250px;
+}
+.surveyPhone{
+    width: 60% !important;
+}
+.futurePlus>ul:nth-child(3){
+    display: none;
+}
+}
+@media only screen and (max-width: 700px){
+    #svgIcon{
+        width: 17px;
+        height: 19px;
+        margin-top: 2px;
+    }
+    .priceMobile ,.wallet{
+        display: none;
+    }
+    #svgUser, #svgPlus{
+        display: none;
+    }
+    .divOrder{
+        display: none;
+    }
+    .prices{
+       display: none;
+    }
+    .divStore{
+      margin-right: 9%;
+    }
+    .onOffer{
+        width: 75% !important;
+   
+    }
+    .img{
+        width: 18% !important;
+        height: 100px !important;
+    }
+    .scroll{
+        overflow-x: scroll;
+        position: relative;
+       width: 75% !important;
+}
+#prices{
+    width: 75% !important;
+}
+.divSpeciFications{
+    display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+}
+.divMoreInfo{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.divMoreInfo>div:nth-child(2){
+   margin-left: 6.5%;
+}
+.survey video{
+    width: 400px;
+}
+.chart img{
+    width: 60% !important;
+  }
+  .textChart,.textSurvey{
+      font-size: 13px !important;
+
+  }
+.futurePlus{
+    display: flex;
+    flex-direction: column;
+}
+.iconMark{
+ 
+    margin-left: -4% !important;
+
+}
+  
+   
+}
+
+@media only screen and (max-width: 482px){
+    .divTime{
+        width:50% !important;
+      } 
+      .onOffer{
+        width: 95% !important;
+        margin-left: 3%;
+    }
+    .divStore{
+        /* margin-right: -2%; */
+      position: relative;
+      padding-right: 3% !important;
+      margin-right: 0% !important;
+      }
+     .divOrderMobile{
+         margin-left: -10%;
+     }
+      .img{
+        width: 29% !important;
+        height: 100px !important;
+    }
+    .scroll{
+        overflow-x: scroll;
+        position: relative;
+       width: 96% !important;
+}
+#prices{
+    width: 96% !important;
+}
+.survey video{
+    width: 250px;
+}
+.chart img{
+    width: 70% !important;
+  }
+  .futurePlus{
+      width: 52% !important;
+  }
+  .footer, .copyRight{
+      /* position: relative;
+      left: 0% !important;
+      right: 0% !important;
+      margin-right: 0% !important;
+      margin-left: 0% !important; */
+  }
+  .copyRight p{
+      font-size: 9px !important;
+  }
+  .iconMark{
+ 
+    margin-left: -6% !important;
+
+}
+}
+
+@media only screen and (min-width: 700px){
+    #prices{
+        display: none;
+    }
+#svgIcon{
+    display: none;
+}
+.divOrderMobile{
+    display: none;
+}
+
+}
+.buttonOrder{
+    background-color: #178C5F;
+    color: white;
+    border-radius: 4px;
+  width: 110px;
+  height: 30px;
+}
+.onOffer{
+
+    border-radius: 5px;
+    width: 53%;
+    height: 200px;
+}
+.prices{
+    border-radius: 5px;
+  
+    width: 42%;
+}
+.divTime{
+  background-image: url('../images/Simple-Blue-White-Background-Image.jpg');
+   height: 140px;
+   position: relative;
+   bottom: 80px;
+   width: 200px;
+   border-radius: 5px;
+}
+.img{
+    width: 18%;
+    height: 150px;
+margin-right: 10px;
+border-radius: 5px;
+  
+}
+.scroll{
+        overflow-x: scroll;
+        position: relative;
+       width: 96%;
+}
+.scroll::-webkit-scrollbar{
+    visibility: hidden;
+}
+ .scroll::-webkit-scrollbar-thumb{
+    visibility: hidden;
+}
+.divSpeciFications div{
+  width: 300px;
+}
+.divMoreInfo div{
+  width: 300px;
+}
+.survey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.surveyPhone{
+    width: 40%;
+}
+.chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chart img{
+  width: 50%;
+}
+.chart div{
+    width: 50%;
+}
+.divMap img{
+    width: 85%;
+    height: 200px;
+}
+.footer{
+    background-color: #F7F7F7;
+    width: 100%;
+}
+.footer>div{
+    width: 85%;
+   
+}
+.iconImg img{
+    width: 20px;
+    height: 20px;
+}
+.iconMark img{
+    width: 100px;
+    height: 80px;
+}
+.centerCall{
+    /* margin-right: 10% !important; */
+}
+.copyRight{
+    background-color: #F2F2F2;
+    width: 100%;
+  
+}
